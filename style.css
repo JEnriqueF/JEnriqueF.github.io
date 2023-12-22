@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'fuente';
+    src: url('Agbalumo-Regular.ttf') format('truetype');
+    /* Agrega formatos adicionales según sea necesario para compatibilidad con navegadores */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+}
+
+header {
+    background-color: #FFFFFF;
+    color: #FFA289;
+    text-align: center;
+    padding: 1em;
+
+    /* Agrega la fuente manuscrita al header */
+    font-family: 'fuente', sans-serif;
+
+    /* Ajusta el tamaño de fuente */
+    font-size: 2em; /* Puedes ajustar el valor según tu preferencia */
+}
+
+.contenedor{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+    display: grid;
+    place-items: center;
+}
+
+.rosa {
+    width: 50px;
+    height: 50px;
+    animation: giro 4s linear infinite;
+}
+
+.petalo {
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: #FFA289;
+    border-radius: 2px 50px;
+    opacity: 0.8;
+    box-shadow: -5px -5px 2px rgba(0, 0, 0, 0.051);
+}
+
+.dot{
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    animation: dot 4s ease-in-out infinite;
+}
+
+.petalo-0{
+    transform: rotate(0deg) translate(-35px, -35px) scale(2);
+}
+
+.petalo-1{
+    transform: rotate(22.5deg) translate(-35px, -35px) scale(2);
+}
+
+.petalo-2{
+    transform: rotate(45deg) translate(-35px, -35px) scale(2);
+}
+.petalo-3{
+    transform: rotate(67.5deg) translate(-35px, -35px) scale(2);
+}
+.petalo-4{
+    transform: rotate(90deg) translate(-35px, -35px) scale(2);
+}
+.petalo-5{
+    transform: rotate(112.5deg) translate(-35px, -35px) scale(2);
+}
+.petalo-6{
+    transform: rotate(135deg) translate(-35px, -35px) scale(2);
+}
+.petalo-7{
+    transform: rotate(157.5deg) translate(-35px, -35px) scale(2);
+}
+.petalo-8{
+    transform: rotate(180deg) translate(-35px, -35px) scale(2);
+}
+.petalo-9{
+    transform: rotate(202.5deg) translate(-35px, -35px) scale(2);
+}
+
+.petalo-10{
+    transform: rotate(225deg) translate(-35px, -35px) scale(2);
+}
+.petalo-11{
+    transform: rotate(247.5deg) translate(-35px, -35px) scale(2);
+}
+.petalo-12{
+    transform: rotate(270deg) translate(-35px, -35px) scale(2);
+}
+.petalo-13{
+    transform: rotate(292.5deg) translate(-35px, -35px) scale(2);
+}
+.petalo-14{
+    transform: rotate(315deg) translate(-35px, -35px) scale(2);
+}
+.petalo-15{
+    transform: rotate(337.5deg) translate(-35px, -35px) scale(2);
+}
+
+@keyframes giro{
+    0%{
+        transform: scale(0) translate(-35px, -35px);
+    }
+    30%{
+        transform: scale(1) rotate(50deg);
+    }
+    70%{
+        transform: scale(1) rotate(100deg);
+    }
+    80%{
+        transform: scale(1) rotate(180deg);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
+@keyframes dot{
+    0%,12%{
+        transform: scale(0);
+    }
+    20%{
+        transform: scale(1.1);
+    }
+    25%{
+        transform: scale(0.95);
+    }
+    30%,55%{
+        transform: scale(1);
+    }
+    58%{
+        transform: scale(1.1);
+    }
+    70%,100%{
+        transform: scale(0);
+    }
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #FFA289;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    /* Agrega la fuente manuscrita al header */
+    font-family: 'fuente', sans-serif;
+
+    /* Ajusta el tamaño de fuente */
+    font-size: 2em; /* Puedes ajustar el valor según tu preferencia */
+}
