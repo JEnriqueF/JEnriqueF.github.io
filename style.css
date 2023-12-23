@@ -175,6 +175,8 @@ footer {
     width: auto;
     height: auto;
 
+    overflow-anchor: auto;
+
     /* Agrega la fuente manuscrita al header */
     font-family: 'fuente', sans-serif;
 
