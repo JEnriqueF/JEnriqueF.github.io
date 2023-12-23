@@ -162,11 +162,10 @@ footer {
     background-color: #FFFFFF;
     color: #FFA289;
     text-align: center;
-    padding: 0.5em;
+    padding: 1em;
     position: fixed;
     bottom: 0;
     width: auto;
-    height: auto;
 
     /* Agrega la fuente manuscrita al header */
     font-family: 'fuente', sans-serif;
