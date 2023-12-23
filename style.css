@@ -154,6 +154,7 @@ header {
 
 main {
     max-width: 800px;
+    height: auto;
     margin: 0 auto;
     padding: 20px;
 }
