@@ -170,8 +170,8 @@ footer {
     color: #FFA289;
     text-align: center;
     padding: 1em;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: auto;
     width: auto;
     height: auto;
 
