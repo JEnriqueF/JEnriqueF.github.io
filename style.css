@@ -167,6 +167,7 @@ footer {
     bottom: 0;
     width: auto;
     height: auto;
+    max-height: fit-content;
 
     /* Agrega la fuente manuscrita al header */
     font-family: 'fuente', sans-serif;
