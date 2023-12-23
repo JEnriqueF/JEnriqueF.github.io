@@ -4,13 +4,6 @@
     /* Agrega formatos adicionales según sea necesario para compatibilidad con navegadores */
 }
 
-/* Media query para pantallas pequeñas (móviles) */
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Ajusta el tamaño de fuente para móviles */
-    }
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -174,8 +167,6 @@ footer {
     bottom: 0;
     width: auto;
     height: auto;
-
-    overflow-anchor: auto;
 
     /* Agrega la fuente manuscrita al header */
     font-family: 'fuente', sans-serif;
