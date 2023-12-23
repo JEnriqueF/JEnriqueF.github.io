@@ -172,7 +172,8 @@ footer {
     padding: 1em;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: auto;
+    height: auto;
 
     /* Agrega la fuente manuscrita al header */
     font-family: 'fuente', sans-serif;
